@@ -21,7 +21,7 @@ ios-dylib: core/src/CLSnapshot.c core/include/CLSnapshot.h
 	xcrun --sdk $(IOS_SDK) clang $(CPPFLAGS) -std=c11 -Wall -Wextra -Werror -O2 \
 		-arch $(IOS_ARCH) -miphoneos-version-min=$(IOS_MIN_VERSION) \
 		-dynamiclib core/src/CLSnapshot.c -o build/libcl_snapshot.dylib \
-		-install_name @rpath/libcl_snapshot.dylib
+		-Wl,-install_name,@rpath/libcl_snapshot.dylib
 
 build/test_snapshot: core/src/CLSnapshot.c tests/test_snapshot.c core/include/CLSnapshot.h
 	mkdir -p build
