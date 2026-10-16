@@ -1,0 +1,44 @@
+name: Build Snapshot Validator iOS Dylib
+
+"on":
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/build-snapshot-ios-dylib.yml"
+      - "Minecraft-iOS-MITM/Makefile"
+      - "Minecraft-iOS-MITM/core/**"
+      - "Minecraft-iOS-MITM/tests/**"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run snapshot contract tests
+        run: make -C Minecraft-iOS-MITM clean test
+
+  build-ios:
+    needs: test
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build arm64 iOS dynamic library
+        run: make -C Minecraft-iOS-MITM ios-dylib
+      - name: Verify Mach-O target and checksum
+        run: |
+          file Minecraft-iOS-MITM/build/libcl_snapshot.dylib
+          xcrun lipo -info Minecraft-iOS-MITM/build/libcl_snapshot.dylib
+          shasum -a 256 Minecraft-iOS-MITM/build/libcl_snapshot.dylib \
+            > Minecraft-iOS-MITM/build/SHA256SUMS
+      - name: Upload iOS dylib
+        uses: actions/upload-artifact@v4
+        with:
+          name: minecraft-snapshot-validator-ios-arm64
+          path: |
+            Minecraft-iOS-MITM/build/libcl_snapshot.dylib
+            Minecraft-iOS-MITM/build/SHA256SUMS
+          if-no-files-found: error
+          retention-days: 14
