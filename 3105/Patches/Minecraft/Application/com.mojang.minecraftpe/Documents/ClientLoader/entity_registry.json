@@ -1,0 +1,4420 @@
+{
+  "schemaVersion": 1,
+  "sourceDirectory": "Payload/minecraftpe.app/data/behavior_packs/vanilla/entities",
+  "definitionsFound": 96,
+  "parsedSuccessfully": 96,
+  "definitionsWithIdentifiers": 96,
+  "definitionsMissingIdentifier": 0,
+  "malformedFileCount": 0,
+  "duplicateIdentifierCount": 0,
+  "malformedFiles": [],
+  "missingIdentifierFiles": [],
+  "duplicateIdentifiers": [],
+  "identifierSources": {
+    "minecraft:agent": [
+      "agent.json"
+    ],
+    "minecraft:area_effect_cloud": [
+      "area_effect_cloud.json"
+    ],
+    "minecraft:armor_stand": [
+      "armor_stand.json"
+    ],
+    "minecraft:arrow": [
+      "arrow.json"
+    ],
+    "minecraft:bat": [
+      "bat.json"
+    ],
+    "minecraft:blaze": [
+      "blaze.json"
+    ],
+    "minecraft:boat": [
+      "boat.json"
+    ],
+    "minecraft:cat": [
+      "cat.json"
+    ],
+    "minecraft:cave_spider": [
+      "cave_spider.json"
+    ],
+    "minecraft:chest_minecart": [
+      "chest_minecart.json"
+    ],
+    "minecraft:chicken": [
+      "chicken.json"
+    ],
+    "minecraft:cod": [
+      "fish.json"
+    ],
+    "minecraft:command_block_minecart": [
+      "command_block_minecart.json"
+    ],
+    "minecraft:cow": [
+      "cow.json"
+    ],
+    "minecraft:creeper": [
+      "creeper.json"
+    ],
+    "minecraft:dolphin": [
+      "dolphin.json"
+    ],
+    "minecraft:donkey": [
+      "donkey.json"
+    ],
+    "minecraft:dragon_fireball": [
+      "dragon_fireball.json"
+    ],
+    "minecraft:drowned": [
+      "drowned.json"
+    ],
+    "minecraft:egg": [
+      "egg.json"
+    ],
+    "minecraft:elder_guardian": [
+      "elder_guardian.json"
+    ],
+    "minecraft:ender_crystal": [
+      "ender_crystal.json"
+    ],
+    "minecraft:ender_dragon": [
+      "ender_dragon.json"
+    ],
+    "minecraft:ender_pearl": [
+      "ender_pearl.json"
+    ],
+    "minecraft:enderman": [
+      "enderman.json"
+    ],
+    "minecraft:endermite": [
+      "endermite.json"
+    ],
+    "minecraft:evocation_illager": [
+      "evocation_illager.json"
+    ],
+    "minecraft:eye_of_ender_signal": [
+      "eye_of_ender_signal.json"
+    ],
+    "minecraft:fireball": [
+      "fireball.json"
+    ],
+    "minecraft:fireworks_rocket": [
+      "fireworks_rocket.json"
+    ],
+    "minecraft:fishing_hook": [
+      "fishing_hook.json"
+    ],
+    "minecraft:fox": [
+      "fox.json"
+    ],
+    "minecraft:ghast": [
+      "ghast.json"
+    ],
+    "minecraft:guardian": [
+      "guardian.json"
+    ],
+    "minecraft:hopper_minecart": [
+      "hopper_minecart.json"
+    ],
+    "minecraft:horse": [
+      "horse.json"
+    ],
+    "minecraft:husk": [
+      "husk.json"
+    ],
+    "minecraft:iron_golem": [
+      "iron_golem.json"
+    ],
+    "minecraft:lightning_bolt": [
+      "lightning_bolt.json"
+    ],
+    "minecraft:lingering_potion": [
+      "lingering_potion.json"
+    ],
+    "minecraft:llama": [
+      "llama.json"
+    ],
+    "minecraft:llama_spit": [
+      "llama_spit.json"
+    ],
+    "minecraft:magma_cube": [
+      "magma_cube.json"
+    ],
+    "minecraft:minecart": [
+      "minecart.json"
+    ],
+    "minecraft:mooshroom": [
+      "mooshroom.json"
+    ],
+    "minecraft:mule": [
+      "mule.json"
+    ],
+    "minecraft:npc": [
+      "npc.json"
+    ],
+    "minecraft:ocelot": [
+      "ocelot.json"
+    ],
+    "minecraft:panda": [
+      "panda.json"
+    ],
+    "minecraft:parrot": [
+      "parrot.json"
+    ],
+    "minecraft:phantom": [
+      "phantom.json"
+    ],
+    "minecraft:pig": [
+      "pig.json"
+    ],
+    "minecraft:pillager": [
+      "pillager.json"
+    ],
+    "minecraft:player": [
+      "player.json"
+    ],
+    "minecraft:polar_bear": [
+      "polar_bear.json"
+    ],
+    "minecraft:pufferfish": [
+      "pufferfish.json"
+    ],
+    "minecraft:rabbit": [
+      "rabbit.json"
+    ],
+    "minecraft:ravager": [
+      "ravager.json"
+    ],
+    "minecraft:salmon": [
+      "salmon.json"
+    ],
+    "minecraft:sheep": [
+      "sheep.json"
+    ],
+    "minecraft:shulker": [
+      "shulker.json"
+    ],
+    "minecraft:shulker_bullet": [
+      "shulker_bullet.json"
+    ],
+    "minecraft:silverfish": [
+      "silverfish.json"
+    ],
+    "minecraft:skeleton": [
+      "skeleton.json"
+    ],
+    "minecraft:skeleton_horse": [
+      "skeleton_horse.json"
+    ],
+    "minecraft:slime": [
+      "slime.json"
+    ],
+    "minecraft:small_fireball": [
+      "small_fireball.json"
+    ],
+    "minecraft:snow_golem": [
+      "snow_golem.json"
+    ],
+    "minecraft:snowball": [
+      "snowball.json"
+    ],
+    "minecraft:spider": [
+      "spider.json"
+    ],
+    "minecraft:splash_potion": [
+      "splash_potion.json"
+    ],
+    "minecraft:squid": [
+      "squid.json"
+    ],
+    "minecraft:stray": [
+      "stray.json"
+    ],
+    "minecraft:thrown_trident": [
+      "thrown_trident.json"
+    ],
+    "minecraft:tnt": [
+      "tnt.json"
+    ],
+    "minecraft:tnt_minecart": [
+      "tnt_minecart.json"
+    ],
+    "minecraft:tripod_camera": [
+      "tripod_camera.json"
+    ],
+    "minecraft:tropicalfish": [
+      "tropicalfish.json"
+    ],
+    "minecraft:turtle": [
+      "turtle.json"
+    ],
+    "minecraft:vex": [
+      "vex.json"
+    ],
+    "minecraft:villager": [
+      "villager.json"
+    ],
+    "minecraft:villager_v2": [
+      "villager_v2.json"
+    ],
+    "minecraft:vindicator": [
+      "vindicator.json"
+    ],
+    "minecraft:wandering_trader": [
+      "wandering_trader.json"
+    ],
+    "minecraft:witch": [
+      "witch.json"
+    ],
+    "minecraft:wither": [
+      "wither.json"
+    ],
+    "minecraft:wither_skeleton": [
+      "wither_skeleton.json"
+    ],
+    "minecraft:wither_skull": [
+      "wither_skull.json"
+    ],
+    "minecraft:wither_skull_dangerous": [
+      "wither_skull_dangerous.json"
+    ],
+    "minecraft:wolf": [
+      "wolf.json"
+    ],
+    "minecraft:xp_bottle": [
+      "xp_bottle.json"
+    ],
+    "minecraft:zombie": [
+      "zombie.json"
+    ],
+    "minecraft:zombie_horse": [
+      "zombie_horse.json"
+    ],
+    "minecraft:zombie_pigman": [
+      "zombie_pigman.json"
+    ],
+    "minecraft:zombie_villager": [
+      "zombie_villager.json"
+    ],
+    "minecraft:zombie_villager_v2": [
+      "zombie_villager_v2.json"
+    ]
+  },
+  "definitions": [
+    {
+      "identifier": "minecraft:agent",
+      "sourceFile": "agent.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.6,
+        "height": 0.93,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.look_at_entity",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune",
+        "minecraft:inventory",
+        "minecraft:movement",
+        "minecraft:nameable",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:scale",
+        "minecraft:tick_world"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": 1,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:area_effect_cloud",
+      "sourceFile": "area_effect_cloud.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "components": [
+        "minecraft:physics"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.width",
+        "collisionBox.height",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:armor_stand",
+      "sourceFile": "armor_stand.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "armor_stand",
+        "inanimate",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.5,
+        "height": 1.975,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:loot",
+        "minecraft:nameable",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 6,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:arrow",
+      "sourceFile": "arrow.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.25,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:dimension_bound",
+        "minecraft:hurt_on_condition",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:bat",
+      "sourceFile": "bat.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "ambient",
+      "typeFamilies": [
+        "bat",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.5,
+        "height": 0.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.float",
+        "minecraft:behavior.float_wander",
+        "minecraft:breathable",
+        "minecraft:can_fly",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.float",
+        "minecraft:physics",
+        "minecraft:type_family"
+      ],
+      "health": 6,
+      "attackDamage": null,
+      "movementSpeed": 0.1,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:blaze",
+      "sourceFile": "blaze.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "blaze",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.5,
+        "height": 1.8,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.ranged_attack",
+        "minecraft:can_climb",
+        "minecraft:can_fly",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:fire_immune",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:shooter",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": 6,
+      "movementSpeed": 0.23,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:boat",
+      "sourceFile": "boat.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "boat",
+        "inanimate"
+      ],
+      "collisionBox": {
+        "width": 1.4,
+        "height": 0.455,
+        "depth": null
+      },
+      "components": [
+        "minecraft:buoyant",
+        "minecraft:collision_box",
+        "minecraft:hurt_on_condition",
+        "minecraft:inside_block_notifier",
+        "minecraft:is_collidable",
+        "minecraft:is_stackable",
+        "minecraft:leashable",
+        "minecraft:loot",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rideable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:cat",
+      "sourceFile": "cat.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "cat",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 0.7,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack_damage",
+        "minecraft:behavior.float",
+        "minecraft:behavior.leap_at_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.ocelotattack",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:dweller",
+        "minecraft:healable",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": 0.3,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:cave_spider",
+      "sourceFile": "cave_spider.json",
+      "formatVersion": "1.13.0",
+      "spawnCategory": null,
+      "typeFamilies": [
+        "cavespider",
+        "monster",
+        "arthropod",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.7,
+        "height": 0.5,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:experience_reward",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.climb",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rideable",
+        "minecraft:type_family"
+      ],
+      "health": 12,
+      "attackDamage": null,
+      "movementSpeed": 0.3,
+      "unknownFields": [
+        "spawnCategory",
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:chest_minecart",
+      "sourceFile": "chest_minecart.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "minecart",
+        "inanimate"
+      ],
+      "collisionBox": {
+        "width": 0.98,
+        "height": 0.7,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:inventory",
+        "minecraft:is_stackable",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rail_movement",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:chicken",
+      "sourceFile": "chicken.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "chicken",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 0.8,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.tempt",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 4,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:command_block_minecart",
+      "sourceFile": "command_block_minecart.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "minecart",
+        "inanimate"
+      ],
+      "collisionBox": {
+        "width": 0.98,
+        "height": 0.7,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:inventory",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rail_movement",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:cow",
+      "sourceFile": "cow.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "cow",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.9,
+        "height": 1.3,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.breed",
+        "minecraft:behavior.float",
+        "minecraft:behavior.follow_parent",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.tempt",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rideable",
+        "minecraft:type_family"
+      ],
+      "health": 10,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:creeper",
+      "sourceFile": "creeper.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "creeper",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.8,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.swell",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:interact",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:on_target_escape",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:target_nearby_sensor",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": 3,
+      "movementSpeed": 0.2,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:dolphin",
+      "sourceFile": "dolphin.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "water_creature",
+      "typeFamilies": [
+        "dolphin",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.9,
+        "height": 0.6,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.find_underwater_treasure",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.move_to_water",
+        "minecraft:behavior.random_breach",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_swim",
+        "minecraft:behavior.swim_up_for_breath",
+        "minecraft:behavior.swim_with_entity",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:flocking",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:nameable",
+        "minecraft:navigation.generic",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family",
+        "minecraft:underwater_movement"
+      ],
+      "health": 10,
+      "attackDamage": 3,
+      "movementSpeed": 0.1,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:donkey",
+      "sourceFile": "donkey.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "donkey",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 1.4,
+        "height": 1.6,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:entity_armor_equipment_slot_mapping",
+        "minecraft:healable",
+        "minecraft:health",
+        "minecraft:horse.jump_strength",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": 0.175,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:dragon_fireball",
+      "sourceFile": "dragon_fireball.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.31,
+        "height": 0.31,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:dimension_bound",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:drowned",
+      "sourceFile": "drowned.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "drowned",
+        "zombie",
+        "undead",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:annotation.break_door",
+        "minecraft:behavior.flee_sun",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.stomp_turtle_egg",
+        "minecraft:breathable",
+        "minecraft:burns_in_daylight",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.generic",
+        "minecraft:nameable",
+        "minecraft:navigation.generic",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family",
+        "minecraft:underwater_movement"
+      ],
+      "health": 20,
+      "attackDamage": null,
+      "movementSpeed": 0.23,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:egg",
+      "sourceFile": "egg.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.25,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:elder_guardian",
+      "sourceFile": "elder_guardian.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "guardian_elder",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 1.99,
+        "height": 1.99,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.guardian_attack",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.move_towards_home_restriction",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:experience_reward",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:home",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.sway",
+        "minecraft:nameable",
+        "minecraft:navigation.generic",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family",
+        "minecraft:underwater_movement"
+      ],
+      "health": 80,
+      "attackDamage": 5,
+      "movementSpeed": 0.3,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:ender_crystal",
+      "sourceFile": "ender_crystal.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.98,
+        "height": 0.98,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:fire_immune",
+        "minecraft:health",
+        "minecraft:on_hurt",
+        "minecraft:physics",
+        "minecraft:pushable"
+      ],
+      "health": 1,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:ender_dragon",
+      "sourceFile": "ender_dragon.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "dragon",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 13,
+        "height": 4,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:boss",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:dimension_bound",
+        "minecraft:fire_immune",
+        "minecraft:flying_speed",
+        "minecraft:health",
+        "minecraft:knockback_resistance",
+        "minecraft:movement",
+        "minecraft:on_death",
+        "minecraft:on_start_landing",
+        "minecraft:on_start_takeoff",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:type_family"
+      ],
+      "health": 200,
+      "attackDamage": 3,
+      "movementSpeed": 0.3,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:ender_pearl",
+      "sourceFile": "ender_pearl.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.25,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:enderman",
+      "sourceFile": "enderman.json",
+      "formatVersion": "1.13.0",
+      "spawnCategory": null,
+      "typeFamilies": [
+        "enderman",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 2.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.enderman_leave_block",
+        "minecraft:behavior.enderman_take_block",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:experience_reward",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:lookat",
+        "minecraft:loot",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:teleport",
+        "minecraft:type_family"
+      ],
+      "health": 40,
+      "attackDamage": 7,
+      "movementSpeed": null,
+      "unknownFields": [
+        "spawnCategory",
+        "collisionBox.depth",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:endermite",
+      "sourceFile": "endermite.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "endermite",
+        "arthropod",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.4,
+        "height": 0.3,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.float",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 8,
+      "attackDamage": 2,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:evocation_illager",
+      "sourceFile": "evocation_illager.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "evocation_illager",
+        "monster",
+        "illager",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_entity",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.send_event",
+        "minecraft:behavior.summon_entity",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:experience_reward",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 24,
+      "attackDamage": null,
+      "movementSpeed": 0.5,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:eye_of_ender_signal",
+      "sourceFile": "eye_of_ender_signal.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.25,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:fireball",
+      "sourceFile": "fireball.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.31,
+        "height": 0.31,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:dimension_bound",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:fireworks_rocket",
+      "sourceFile": "fireworks_rocket.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.25,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:cod",
+      "sourceFile": "fish.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "water_ambient",
+      "typeFamilies": [
+        "cod",
+        "fish"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 0.3,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.random_swim",
+        "minecraft:behavior.swim_idle",
+        "minecraft:behavior.swim_wander",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:flocking",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.sway",
+        "minecraft:nameable",
+        "minecraft:navigation.generic",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:scale",
+        "minecraft:type_family",
+        "minecraft:underwater_movement"
+      ],
+      "health": 6,
+      "attackDamage": null,
+      "movementSpeed": 0.1,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:fishing_hook",
+      "sourceFile": "fishing_hook.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.15,
+        "height": 0.15,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:dimension_bound",
+        "minecraft:loot",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable",
+        "minecraft:transient"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:fox",
+      "sourceFile": "fox.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "fox",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 0.7,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:balloonable",
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.eat_carried_item",
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.pickup_items",
+        "minecraft:behavior.raid_garden",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_look_around_and_sit",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.stalk_and_pounce_on_target",
+        "minecraft:behavior.tempt",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:environment_sensor",
+        "minecraft:health",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:scheduler",
+        "minecraft:shareables",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": 2,
+      "movementSpeed": 0.3,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:ghast",
+      "sourceFile": "ghast.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "ghast",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 4,
+        "height": 4,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.float",
+        "minecraft:behavior.float_wander",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.ranged_attack",
+        "minecraft:breathable",
+        "minecraft:can_fly",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:fire_immune",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:nameable",
+        "minecraft:navigation.float",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:shooter",
+        "minecraft:type_family"
+      ],
+      "health": 10,
+      "attackDamage": null,
+      "movementSpeed": 0.03,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:guardian",
+      "sourceFile": "guardian.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "guardian",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.85,
+        "height": 0.85,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.guardian_attack",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.move_towards_home_restriction",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:home",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.sway",
+        "minecraft:nameable",
+        "minecraft:navigation.generic",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:target_nearby_sensor",
+        "minecraft:type_family",
+        "minecraft:underwater_movement"
+      ],
+      "health": 30,
+      "attackDamage": 5,
+      "movementSpeed": 0.12,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:hopper_minecart",
+      "sourceFile": "hopper_minecart.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "minecart",
+        "inanimate"
+      ],
+      "collisionBox": {
+        "width": 0.98,
+        "height": 0.7,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:inventory",
+        "minecraft:is_stackable",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rail_movement",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:horse",
+      "sourceFile": "horse.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "horse",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 1.4,
+        "height": 1.6,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:entity_armor_equipment_slot_mapping",
+        "minecraft:equippable",
+        "minecraft:healable",
+        "minecraft:health",
+        "minecraft:horse.jump_strength",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:husk",
+      "sourceFile": "husk.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "husk",
+        "zombie",
+        "undead",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:annotation.break_door",
+        "minecraft:attack",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.stomp_turtle_egg",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:environment_sensor",
+        "minecraft:equipment",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family",
+        "minecraft:variant"
+      ],
+      "health": 20,
+      "attackDamage": 3,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:iron_golem",
+      "sourceFile": "iron_golem.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "irongolem",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 1.4,
+        "height": 2.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:balloonable",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.move_through_village",
+        "minecraft:behavior.move_towards_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.offer_flower",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.target_when_pushed",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:knockback_resistance",
+        "minecraft:leashable",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:preferred_path",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 100,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:lightning_bolt",
+      "sourceFile": "lightning_bolt.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "lightning"
+      ],
+      "collisionBox": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "components": [
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.width",
+        "collisionBox.height",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:lingering_potion",
+      "sourceFile": "lingering_potion.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.25,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:llama",
+      "sourceFile": "llama.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "llama",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.float",
+        "minecraft:behavior.follow_caravan",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.run_around_like_crazy",
+        "minecraft:breathable",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:entity_armor_equipment_slot_mapping",
+        "minecraft:follow_range",
+        "minecraft:healable",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:mark_variant",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:shooter",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.width",
+        "collisionBox.height",
+        "collisionBox.depth",
+        "health",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:llama_spit",
+      "sourceFile": "llama_spit.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.31,
+        "height": 0.31,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:magma_cube",
+      "sourceFile": "magma_cube.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "magmacube",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.slime_attack",
+        "minecraft:behavior.slime_float",
+        "minecraft:behavior.slime_keep_on_jumping",
+        "minecraft:behavior.slime_random_direction",
+        "minecraft:breathable",
+        "minecraft:burns_in_daylight",
+        "minecraft:can_climb",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:fire_immune",
+        "minecraft:jump.static",
+        "minecraft:movement.jump",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.width",
+        "collisionBox.height",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:minecart",
+      "sourceFile": "minecart.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "minecart",
+        "inanimate",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.98,
+        "height": 0.7,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:is_stackable",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rail_movement",
+        "minecraft:rail_sensor",
+        "minecraft:rideable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:mooshroom",
+      "sourceFile": "mooshroom.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "mushroomcow",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.9,
+        "height": 1.3,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.breed",
+        "minecraft:behavior.float",
+        "minecraft:behavior.follow_parent",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.tempt",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:mark_variant",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rideable",
+        "minecraft:type_family"
+      ],
+      "health": 10,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:mule",
+      "sourceFile": "mule.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "mule",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 1.4,
+        "height": 1.6,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:entity_armor_equipment_slot_mapping",
+        "minecraft:healable",
+        "minecraft:health",
+        "minecraft:horse.jump_strength",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": 0.175,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:npc",
+      "sourceFile": "npc.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "npc",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 2.1,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.look_at_player",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:nameable",
+        "minecraft:npc",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": 0.5,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:ocelot",
+      "sourceFile": "ocelot.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "ocelot",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 0.7,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack_damage",
+        "minecraft:behavior.float",
+        "minecraft:behavior.leap_at_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.ocelotattack",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 10,
+      "attackDamage": null,
+      "movementSpeed": 0.3,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:panda",
+      "sourceFile": "panda.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "panda"
+      ],
+      "collisionBox": {
+        "width": 1.7,
+        "height": 1.5,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.breed",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_sitting",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.snacking",
+        "minecraft:behavior.tempt",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:genetics",
+        "minecraft:giveable",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:inventory",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rideable",
+        "minecraft:scale",
+        "minecraft:type_family",
+        "minecraft:variant",
+        "minecraft:water_movement"
+      ],
+      "health": 20,
+      "attackDamage": null,
+      "movementSpeed": 0.15,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:parrot",
+      "sourceFile": "parrot.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.5,
+        "height": 1,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.panic",
+        "minecraft:breathable",
+        "minecraft:can_fly",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:healable",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.fly",
+        "minecraft:nameable",
+        "minecraft:navigation.fly",
+        "minecraft:physics",
+        "minecraft:pushable"
+      ],
+      "health": 6,
+      "attackDamage": null,
+      "movementSpeed": 0.4,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:phantom",
+      "sourceFile": "phantom.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "phantom",
+        "undead",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.9,
+        "height": 0.5,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.circle_around_anchor",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.swoop_attack",
+        "minecraft:breathable",
+        "minecraft:burns_in_daylight",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.glide",
+        "minecraft:nameable",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:renders_when_invisible",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": 6,
+      "movementSpeed": 1.8,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:pig",
+      "sourceFile": "pig.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "pig",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.9,
+        "height": 0.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.tempt",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 10,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:pillager",
+      "sourceFile": "pillager.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "pillager",
+        "monster",
+        "illager",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.charge_held_item",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:equipment",
+        "minecraft:experience_reward",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family",
+        "minecraft:variant"
+      ],
+      "health": 24,
+      "attackDamage": null,
+      "movementSpeed": 0.35,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:player",
+      "sourceFile": "player.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "player"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.8,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:block_climber",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:environment_sensor",
+        "minecraft:exhaustion_values",
+        "minecraft:experience_reward",
+        "minecraft:hurt_on_condition",
+        "minecraft:insomnia",
+        "minecraft:is_hidden_when_invisible",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:nameable",
+        "minecraft:physics",
+        "minecraft:player.exhaustion",
+        "minecraft:player.experience",
+        "minecraft:player.level",
+        "minecraft:player.saturation",
+        "minecraft:pushable",
+        "minecraft:rideable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": 1,
+      "movementSpeed": 0.1,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health"
+      ]
+    },
+    {
+      "identifier": "minecraft:polar_bear",
+      "sourceFile": "polar_bear.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "polarbear",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 1.3,
+        "height": 1.4,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family",
+        "minecraft:water_movement"
+      ],
+      "health": 30,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:pufferfish",
+      "sourceFile": "pufferfish.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "water_ambient",
+      "typeFamilies": [
+        "pufferfish",
+        "fish"
+      ],
+      "collisionBox": {
+        "width": 0.8,
+        "height": 0.8,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.random_swim",
+        "minecraft:behavior.swim_wander",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:flocking",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.sway",
+        "minecraft:nameable",
+        "minecraft:navigation.generic",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:scale",
+        "minecraft:type_family",
+        "minecraft:underwater_movement"
+      ],
+      "health": 6,
+      "attackDamage": null,
+      "movementSpeed": 0.13,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:rabbit",
+      "sourceFile": "rabbit.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "rabbit",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.67,
+        "height": 0.67,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.breed",
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.raid_garden",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.tempt",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.dynamic",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.skip",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 3,
+      "attackDamage": null,
+      "movementSpeed": 0.3,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:ravager",
+      "sourceFile": "ravager.json",
+      "formatVersion": "1.13.0",
+      "spawnCategory": null,
+      "typeFamilies": [
+        "monster",
+        "illager",
+        "ravager",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 1.2,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.float",
+        "minecraft:break_blocks",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:experience_reward",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:knockback_resistance",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:ravager_blocked",
+        "minecraft:rideable",
+        "minecraft:type_family"
+      ],
+      "health": 100,
+      "attackDamage": 12.0,
+      "movementSpeed": 0.0,
+      "unknownFields": [
+        "spawnCategory",
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:salmon",
+      "sourceFile": "salmon.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "water_ambient",
+      "typeFamilies": [
+        "salmon",
+        "fish"
+      ],
+      "collisionBox": {
+        "width": 0.5,
+        "height": 0.5,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.random_swim",
+        "minecraft:behavior.swim_idle",
+        "minecraft:behavior.swim_wander",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:flocking",
+        "minecraft:hurt_on_condition",
+        "minecraft:movement",
+        "minecraft:movement.sway",
+        "minecraft:nameable",
+        "minecraft:navigation.generic",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family",
+        "minecraft:underwater_movement"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": 0.12,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:sheep",
+      "sourceFile": "sheep.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "sheep",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.9,
+        "height": 1.3,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.eat_block",
+        "minecraft:behavior.float",
+        "minecraft:behavior.follow_parent",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.tempt",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:interact",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 8,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:shulker",
+      "sourceFile": "shulker.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "shulker",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.ranged_attack",
+        "minecraft:breathable",
+        "minecraft:experience_reward",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:interact",
+        "minecraft:is_collidable",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:peek",
+        "minecraft:physics",
+        "minecraft:renders_when_invisible",
+        "minecraft:shooter",
+        "minecraft:type_family"
+      ],
+      "health": 30,
+      "attackDamage": null,
+      "movementSpeed": 0.0,
+      "unknownFields": [
+        "collisionBox.width",
+        "collisionBox.height",
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:shulker_bullet",
+      "sourceFile": "shulker_bullet.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.625,
+        "height": 0.625,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:projectile"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:silverfish",
+      "sourceFile": "silverfish.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "silverfish",
+        "monster",
+        "mob",
+        "arthropod"
+      ],
+      "collisionBox": {
+        "width": 0.4,
+        "height": 0.3,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.silverfish_merge_with_stone",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 8,
+      "attackDamage": 1,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:skeleton",
+      "sourceFile": "skeleton.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "skeleton",
+        "undead",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.ranged_attack",
+        "minecraft:breathable",
+        "minecraft:burns_in_daylight",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:environment_sensor",
+        "minecraft:equipment",
+        "minecraft:experience_reward",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rotation_locked_to_vehicle",
+        "minecraft:shooter",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:skeleton_horse",
+      "sourceFile": "skeleton_horse.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "skeletonhorse",
+        "undead",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:can_power_jump",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:horse.jump_strength",
+        "minecraft:hurt_on_condition",
+        "minecraft:input_ground_controlled",
+        "minecraft:is_tamed",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rideable",
+        "minecraft:type_family",
+        "minecraft:underwater_movement"
+      ],
+      "health": 15,
+      "attackDamage": null,
+      "movementSpeed": 0.2,
+      "unknownFields": [
+        "collisionBox.width",
+        "collisionBox.height",
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:slime",
+      "sourceFile": "slime.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "slime",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.slime_attack",
+        "minecraft:behavior.slime_float",
+        "minecraft:behavior.slime_keep_on_jumping",
+        "minecraft:behavior.slime_random_direction",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement.jump",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.width",
+        "collisionBox.height",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:small_fireball",
+      "sourceFile": "small_fireball.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.31,
+        "height": 0.31,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:dimension_bound",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:snow_golem",
+      "sourceFile": "snow_golem.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "snowgolem",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.4,
+        "height": 1.8,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:balloonable",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.ranged_attack",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:interact",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:shooter",
+        "minecraft:trail",
+        "minecraft:type_family"
+      ],
+      "health": 4,
+      "attackDamage": 2,
+      "movementSpeed": 0.2,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:snowball",
+      "sourceFile": "snowball.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.25,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:spider",
+      "sourceFile": "spider.json",
+      "formatVersion": "1.13.0",
+      "spawnCategory": null,
+      "typeFamilies": [
+        "spider",
+        "monster",
+        "mob",
+        "arthropod"
+      ],
+      "collisionBox": {
+        "width": 1.4,
+        "height": 0.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:experience_reward",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.climb",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rideable",
+        "minecraft:type_family"
+      ],
+      "health": 16,
+      "attackDamage": 3,
+      "movementSpeed": 0.3,
+      "unknownFields": [
+        "spawnCategory",
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:splash_potion",
+      "sourceFile": "splash_potion.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.25,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:squid",
+      "sourceFile": "squid.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "water_creature",
+      "typeFamilies": [
+        "squid",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.95,
+        "height": 0.95,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.squid_dive",
+        "minecraft:behavior.squid_flee",
+        "minecraft:behavior.squid_idle",
+        "minecraft:behavior.squid_move_away_from_ground",
+        "minecraft:behavior.squid_out_of_water",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 10,
+      "attackDamage": null,
+      "movementSpeed": 0.2,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:stray",
+      "sourceFile": "stray.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "stray",
+        "skeleton",
+        "monster",
+        "mob",
+        "undead"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.ranged_attack",
+        "minecraft:breathable",
+        "minecraft:burns_in_daylight",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:environment_sensor",
+        "minecraft:equipment",
+        "minecraft:experience_reward",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:shooter",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:thrown_trident",
+      "sourceFile": "thrown_trident.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.35,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:dimension_bound",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:tnt",
+      "sourceFile": "tnt.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "tnt",
+        "inanimate"
+      ],
+      "collisionBox": {
+        "width": 0.98,
+        "height": 0.98,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:explode",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:tnt_minecart",
+      "sourceFile": "tnt_minecart.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "minecart",
+        "inanimate"
+      ],
+      "collisionBox": {
+        "width": 0.98,
+        "height": 0.7,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:is_stackable",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:rail_movement",
+        "minecraft:type_family"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:tripod_camera",
+      "sourceFile": "tripod_camera.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "tripodcamera",
+        "inanimate",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.75,
+        "height": 1.8,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:loot",
+        "minecraft:physics",
+        "minecraft:type_family"
+      ],
+      "health": 4,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:tropicalfish",
+      "sourceFile": "tropicalfish.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "water_ambient",
+      "typeFamilies": [
+        "tropicalfish",
+        "fish"
+      ],
+      "collisionBox": {
+        "width": 0.4,
+        "height": 0.4,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.random_swim",
+        "minecraft:behavior.swim_idle",
+        "minecraft:behavior.swim_wander",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:flocking",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.sway",
+        "minecraft:nameable",
+        "minecraft:navigation.generic",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:scale",
+        "minecraft:type_family",
+        "minecraft:underwater_movement"
+      ],
+      "health": 6,
+      "attackDamage": null,
+      "movementSpeed": 0.12,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:turtle",
+      "sourceFile": "turtle.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.move_to_water",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_swim",
+        "minecraft:behavior.tempt",
+        "minecraft:breathable",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:home",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.amphibious",
+        "minecraft:nameable",
+        "minecraft:navigation.generic",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:water_movement"
+      ],
+      "health": 30,
+      "attackDamage": null,
+      "movementSpeed": 0.1,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.width",
+        "collisionBox.height",
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:vex",
+      "sourceFile": "vex.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "vex",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.4,
+        "height": 0.8,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.charge_attack",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_entity",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:equipment",
+        "minecraft:experience_reward",
+        "minecraft:fire_immune",
+        "minecraft:health",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:type_family"
+      ],
+      "health": 14,
+      "attackDamage": 3,
+      "movementSpeed": 1.0,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:villager",
+      "sourceFile": "villager.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "villager",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:annotation.open_door",
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.look_at_trading_player",
+        "minecraft:behavior.move_indoors",
+        "minecraft:behavior.open_door",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.pickup_items",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.restrict_open_door",
+        "minecraft:behavior.share_items",
+        "minecraft:behavior.trade_with_player",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:inventory",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": null,
+      "movementSpeed": 0.5,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:villager_v2",
+      "sourceFile": "villager_v2.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": [
+        "villager",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:annotation.open_door",
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hide",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.look_at_trading_player",
+        "minecraft:behavior.move_indoors",
+        "minecraft:behavior.move_towards_dwelling_restriction",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.pickup_items",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.share_items",
+        "minecraft:behavior.trade_with_player",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:dweller",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hide",
+        "minecraft:hurt_on_condition",
+        "minecraft:inventory",
+        "minecraft:jump.static",
+        "minecraft:mark_variant",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": null,
+      "movementSpeed": 0.5,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:vindicator",
+      "sourceFile": "vindicator.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "vindicator",
+        "monster",
+        "illager",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:equipment",
+        "minecraft:experience_reward",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family",
+        "minecraft:variant"
+      ],
+      "health": 24,
+      "attackDamage": 8,
+      "movementSpeed": 0.35,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:wandering_trader",
+      "sourceFile": "wandering_trader.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "wandering_trader",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.drink_potion",
+        "minecraft:behavior.float",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.look_at_trading_player",
+        "minecraft:behavior.open_door",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.restrict_open_door",
+        "minecraft:behavior.trade_interest",
+        "minecraft:behavior.trade_with_player",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:despawn",
+        "minecraft:economy_trade_table",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:is_hidden_when_invisible",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:spawn_entity",
+        "minecraft:timer",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": null,
+      "movementSpeed": 0.5,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:witch",
+      "sourceFile": "witch.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "witch",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.drink_potion",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.ranged_attack",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:experience_reward",
+        "minecraft:follow_range",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:shooter",
+        "minecraft:type_family"
+      ],
+      "health": 26,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:wither",
+      "sourceFile": "wither.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "wither",
+        "skeleton",
+        "monster",
+        "undead",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 1,
+        "height": 3,
+        "depth": null
+      },
+      "components": [
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.look_at_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.wither_random_attack_pos_goal",
+        "minecraft:behavior.wither_target_highest_damage",
+        "minecraft:boss",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:can_fly",
+        "minecraft:collision_box",
+        "minecraft:damage_sensor",
+        "minecraft:experience_reward",
+        "minecraft:fire_immune",
+        "minecraft:health",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:persistent",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 600,
+      "attackDamage": null,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:wither_skeleton",
+      "sourceFile": "wither_skeleton.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "wither",
+        "monster",
+        "undead",
+        "skeleton",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.72,
+        "height": 2.01,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:equipment",
+        "minecraft:experience_reward",
+        "minecraft:fire_immune",
+        "minecraft:health",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:scale",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": 4,
+      "movementSpeed": 0.25,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:wither_skull",
+      "sourceFile": "wither_skull.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.15,
+        "height": 0.15,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:dimension_bound",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:wither_skull_dangerous",
+      "sourceFile": "wither_skull_dangerous.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.15,
+        "height": 0.15,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:dimension_bound",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:wolf",
+      "sourceFile": "wolf.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "wolf",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 0.8,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.beg",
+        "minecraft:behavior.float",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.leap_at_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.stay_while_sitting",
+        "minecraft:breathable",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:healable",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 8,
+      "attackDamage": 3,
+      "movementSpeed": 0.3,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:xp_bottle",
+      "sourceFile": "xp_bottle.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "misc",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.25,
+        "height": 0.25,
+        "depth": null
+      },
+      "components": [
+        "minecraft:collision_box",
+        "minecraft:physics",
+        "minecraft:projectile",
+        "minecraft:pushable"
+      ],
+      "health": null,
+      "attackDamage": null,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "health",
+        "attackDamage",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:zombie",
+      "sourceFile": "zombie.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "zombie",
+        "undead",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:annotation.break_door",
+        "minecraft:attack",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.stomp_turtle_egg",
+        "minecraft:breathable",
+        "minecraft:burns_in_daylight",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:environment_sensor",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": 3,
+      "movementSpeed": null,
+      "unknownFields": [
+        "collisionBox.depth",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:zombie_horse",
+      "sourceFile": "zombie_horse.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "creature",
+      "typeFamilies": [
+        "zombiehorse",
+        "undead",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 1.4,
+        "height": 1.6,
+        "depth": null
+      },
+      "components": [
+        "minecraft:balloonable",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:breathable",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:horse.jump_strength",
+        "minecraft:hurt_on_condition",
+        "minecraft:is_tamed",
+        "minecraft:jump.static",
+        "minecraft:leashable",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 15,
+      "attackDamage": null,
+      "movementSpeed": 0.2,
+      "unknownFields": [
+        "collisionBox.depth",
+        "attackDamage"
+      ]
+    },
+    {
+      "identifier": "minecraft:zombie_pigman",
+      "sourceFile": "zombie_pigman.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": [
+        "zombie_pigman",
+        "undead",
+        "monster",
+        "mob"
+      ],
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.mount_pathing",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.stomp_turtle_egg",
+        "minecraft:breathable",
+        "minecraft:burns_in_daylight",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:equipment",
+        "minecraft:fire_immune",
+        "minecraft:health",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable",
+        "minecraft:type_family"
+      ],
+      "health": 20,
+      "attackDamage": 5,
+      "movementSpeed": 0.23,
+      "unknownFields": [
+        "collisionBox.depth"
+      ]
+    },
+    {
+      "identifier": "minecraft:zombie_villager",
+      "sourceFile": "zombie_villager.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:annotation.break_door",
+        "minecraft:attack",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.stomp_turtle_egg",
+        "minecraft:breathable",
+        "minecraft:burns_in_daylight",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:interact",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable"
+      ],
+      "health": 20,
+      "attackDamage": 3,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "movementSpeed"
+      ]
+    },
+    {
+      "identifier": "minecraft:zombie_villager_v2",
+      "sourceFile": "zombie_villager_v2.json",
+      "formatVersion": "1.26.0",
+      "spawnCategory": "monster",
+      "typeFamilies": null,
+      "collisionBox": {
+        "width": 0.6,
+        "height": 1.9,
+        "depth": null
+      },
+      "components": [
+        "minecraft:attack",
+        "minecraft:behavior.break_door",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_player",
+        "minecraft:behavior.melee_attack",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.random_look_around",
+        "minecraft:behavior.random_stroll",
+        "minecraft:behavior.stomp_turtle_egg",
+        "minecraft:breathable",
+        "minecraft:burns_in_daylight",
+        "minecraft:can_climb",
+        "minecraft:collision_box",
+        "minecraft:despawn",
+        "minecraft:health",
+        "minecraft:hurt_on_condition",
+        "minecraft:interact",
+        "minecraft:jump.static",
+        "minecraft:loot",
+        "minecraft:movement.basic",
+        "minecraft:nameable",
+        "minecraft:navigation.walk",
+        "minecraft:physics",
+        "minecraft:pushable"
+      ],
+      "health": 20,
+      "attackDamage": 3,
+      "movementSpeed": null,
+      "unknownFields": [
+        "typeFamilies",
+        "collisionBox.depth",
+        "movementSpeed"
+      ]
+    }
+  ]
+}

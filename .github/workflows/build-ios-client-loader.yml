@@ -1,0 +1,55 @@
+name: Build iOS Client Loader
+
+"on":
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/build-ios-client-loader.yml"
+      - "ClientLoader/**"
+      - "Minecraft-iOS-MITM/core/**"
+      - "3105/Patches/Minecraft/Application/**"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - name: Check out loader source
+        uses: actions/checkout@v4
+
+      - name: Build arm64 iOS dynamic library
+        run: ./ClientLoader/build.sh
+
+      - name: Verify integrated loader and snapshot validator
+        run: |
+          file ClientLoader/ClientLoader.dylib
+          xcrun lipo -info ClientLoader/ClientLoader.dylib
+          nm -gU ClientLoader/ClientLoader.dylib | grep -F '_CLValidateSnapshot'
+          nm -gU ClientLoader/ClientLoader.dylib | grep -F '_OBJC_CLASS_$_ClientMenuBridge'
+
+      - name: Test loader packaging and build manifest
+        run: python3 -m unittest discover -s ClientLoader -p 'test_*.py' -v
+
+      - name: Record artifact checksum
+        run: |
+          cd ClientLoader
+          shasum -a 256 ClientLoader.dylib > SHA256SUMS
+          shasum -a 256 -c SHA256SUMS
+
+      - name: Record build manifest
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+        run: python3 ClientLoader/write_build_manifest.py
+
+      - name: Upload loader artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: minecraft-client-loader-snapshot-bridge-ios-arm64
+          path: |
+            ClientLoader/ClientLoader.dylib
+            ClientLoader/SHA256SUMS
+            ClientLoader/BuildManifest.json
+          if-no-files-found: error
+          retention-days: 14
